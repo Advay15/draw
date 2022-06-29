@@ -1,0 +1,39 @@
+body
+{
+    background-image: linear-gradient(to right top, #000c1f, #02336a, #05a1c4, #298f00, #36cb00); 
+    color: aliceblue;
+}
+
+h1
+{
+color: rgba(30, 74, 184, 0.721);
+background-color: beige;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border: 5px solid white; 
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px gray;}
+    to {box-shadow: 1px 1px 38px whitesmoke;}
+
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
